@@ -35,11 +35,11 @@ export function Footer() {
         <div className="py-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <a href="#home" className="inline-flex items-center mb-6 rounded-md bg-white p-3">
+            <a href="#home" className="inline-flex items-center mb-6">
               <img
-                src="/logo2.png"
+                src="/Nyalunga%20White%20logo.svg"
                 alt="HN Nyalunga Inc logo"
-                className="h-28 w-auto rounded-sm"
+                className="h-28 w-auto"
               />
             </a>
             <p className="text-white/70 leading-relaxed mb-6">

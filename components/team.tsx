@@ -5,7 +5,7 @@ const attorneys = [
     name: "Hazel Nyalunga",
     title: "Founding Partner",
     specialty: "Unlawful arrest and detention, Criminal Law",
-    image: "/Hazel.png",
+    image: "/image2.jpeg",
     linkedin: "#",
     email: "james@morrisonlaw.com",
   },

@@ -24,7 +24,11 @@ export function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center">
-            <span className="text-2xl font-bold text-primary">Nyalunga Attorney</span>
+            <img
+              src="/Nyalunga%20Blue%20logo.svg"
+              alt="Nyalunga Attorney logo"
+              className="h-10 w-auto sm:h-12"
+            />
           </a>
 
           {/* Desktop Navigation */}
