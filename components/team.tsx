@@ -1,13 +1,15 @@
+"use client";
+
 import { Linkedin, Mail } from "lucide-react";
 
 const attorneys = [
   {
     name: "Hazel Nyalunga",
-    title: "Founding Partner",
+    title: "Director & Legal Practitioner",
     specialty: "Unlawful arrest and detention, Criminal Law",
     image: "/image2.jpeg",
-    linkedin: "#",
-    email: "james@morrisonlaw.com",
+    linkedin: "https://www.linkedin.com/in/hazel-nelisiwe-1a2a00206",
+    email: "info@hnnyalungainc.co.za",
   },
   {
     name: "Sarah Chen",
@@ -48,9 +50,9 @@ export function Team() {
             Attorneys Across Our Core Practice Areas
           </h2>
           <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
-            Our legal team offers focused experience across unlawful arrest and
-            detention, medical negligence, Road Accident Fund claims, criminal
-            law, debt collection, family law, and contracts law.
+            HN Nyalunga Attorneys provides professional legal support across
+            unlawful arrest and detention, medical negligence, Road Accident
+            Fund claims, Tax law, debt collection, and contracts law.
           </p>
         </div>
 
@@ -68,16 +70,25 @@ export function Team() {
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-linear-to-t from-primary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-6">
                   <div className="flex gap-4">
-                    <a
-                      href={attorney.linkedin}
-                      className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors"
-                      aria-label={`${attorney.name}'s LinkedIn`}
-                    >
-                      <Linkedin className="h-5 w-5" />
-                    </a>
+                    {attorney.linkedin !== "#" && (
+                      <a
+                        href={attorney.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors pointer-events-auto z-10"
+                        aria-label={`${attorney.name}'s LinkedIn`}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          window.open(attorney.linkedin, '_blank', 'noopener,noreferrer');
+                          e.preventDefault();
+                        }}
+                      >
+                        <Linkedin className="h-5 w-5" />
+                      </a>
+                    )}
                     <a
                       href={`mailto:${attorney.email}`}
-                      className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors"
+                      className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors pointer-events-auto z-10"
                       aria-label={`Email ${attorney.name}`}
                     >
                       <Mail className="h-5 w-5" />

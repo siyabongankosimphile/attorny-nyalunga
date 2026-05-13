@@ -29,14 +29,14 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Phone",
-    value: "0795049727",
-    href: "tel:+27795049727",
+    value: "075 120 4011",
+    href: "tel:+27751204011",
   },
   {
     icon: Mail,
     label: "Email",
-    value: "info@hnnyalunga.co.za",
-    href: "mailto:info@hnnyalunga.co.za",
+    value: "info@hnnyalungainc.co.za",
+    href: "mailto:info@hnnyalungainc.co.za",
   },
   {
     icon: Clock,
@@ -198,9 +198,8 @@ export function Contact() {
                         <SelectItem value="unlawful-arrest-and-detention">Unlawful arrest and detention</SelectItem>
                         <SelectItem value="medical-negligence">Medical Negligence</SelectItem>
                         <SelectItem value="road-accident-fund">Road Accident Fund</SelectItem>
-                        <SelectItem value="criminal-law">Criminal Law</SelectItem>
                         <SelectItem value="debt-collection">Debt collection</SelectItem>
-                        <SelectItem value="family-law">Family law</SelectItem>
+                        <SelectItem value="tax-law">Tax Law</SelectItem>
                         <SelectItem value="contracts-law">Contracts Law</SelectItem>
                       </SelectContent>
                     </Select>

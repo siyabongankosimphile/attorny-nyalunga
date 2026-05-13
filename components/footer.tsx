@@ -1,13 +1,12 @@
-import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Facebook, Linkedin, Instagram } from "lucide-react";
 
 const footerLinks = {
   practiceAreas: [
     { label: "Unlawful arrest and detention", href: "#services" },
     { label: "Medical Negligence", href: "#services" },
     { label: "Road Accident Fund", href: "#services" },
-    { label: "Criminal Law", href: "#services" },
     { label: "Debt collection", href: "#services" },
-    { label: "Family law", href: "#services" },
+    { label: "Tax Law", href: "#services" },
     { label: "Contracts Law", href: "#services" },
   ],
   quickLinks: [
@@ -20,7 +19,6 @@ const footerLinks = {
 
 const socialLinks = [
   { icon: Facebook, href: "https://www.facebook.com/people/HN-Nyalunga-Attorneys/61572777221935/#", label: "Facebook" },
-  { icon: Twitter, href: "#", label: "Twitter" },
   { icon: Linkedin, href: "#", label: "LinkedIn" },
   { icon: Instagram, href: "https://www.instagram.com/nyalunga_inc/", label: "Instagram" },
 ];
@@ -103,18 +101,18 @@ export function Footer() {
               <p>Mbombela, South Africa</p>
               <p>
                 <a
-                  href="tel:+27795049727"
+                  href="tel:+27751204011"
                   className="hover:text-white transition-colors"
                 >
-                  0795049727
+                  075 120 4011
                 </a>
               </p>
               <p>
                 <a
-                  href="mailto:info@hnnyalunga.co.za"
+                  href="mailto:info@hnnyalungainc.co.za"
                   className="hover:text-white transition-colors"
                 >
-                  info@hnnyalunga.co.za
+                  info@hnnyalungainc.co.za
                 </a>
               </p>
             </address>
@@ -145,6 +143,17 @@ export function Footer() {
             >
               Disclaimer
             </a>
+            <p className="text-white/60">
+              Developed by{" "}
+              <a
+                href="https://kayiseit.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/70 hover:text-white transition-colors"
+              >
+                KAYISE IT
+              </a>
+            </p>
           </div>
         </div>
       </div>

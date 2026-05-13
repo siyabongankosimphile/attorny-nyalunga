@@ -1,4 +1,4 @@
-import { CheckCircle } from "lucide-react";
+import { CheckCircle, Star } from "lucide-react";
 
 const highlights = [
   "Personalized attention to every client",
@@ -23,11 +23,24 @@ export function About() {
                 className="w-full h-full object-cover"
               />
             </div>
-            {/* Experience Badge */}
-            <div className="absolute -bottom-6 -right-6 bg-primary text-white p-6 rounded-lg shadow-xl">
-              <div className="text-4xl font-serif font-bold">30+</div>
-              <div className="text-sm text-white/80">Years of Excellence</div>
+            <div className="absolute -bottom-6 -right-6 bg-[#1a355c] text-white p-5 rounded-lg shadow-xl w-44">
+              <div className="flex items-center justify-center gap-1 mb-1">
+                <Star
+                  className="h-4 w-4 text-amber-300 animate-slow-glow"
+                  style={{ animationDelay: "0s" }}
+                />
+                <Star
+                  className="h-4 w-4 text-amber-300 animate-slow-glow"
+                  style={{ animationDelay: "0.3s" }}
+                />
+                <Star
+                  className="h-4 w-4 text-amber-300 animate-slow-glow"
+                  style={{ animationDelay: "0.6s" }}
+                />
+              </div>
+              <div className="text-center text-sm font-semibold">Managing Director</div>
             </div>
+
           </div>
 
           {/* Content Side */}
@@ -36,10 +49,10 @@ export function About() {
               About Our Firm
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-foreground mt-3 leading-tight text-balance">
-              Dedicated Legal Excellence Since 1994
+              Dedicated Legal Excellence
             </h2>
             <p className="mt-6 text-muted-foreground leading-relaxed text-lg">
-              At Nyalunga Attorney, we believe that every client deserves
+              At HN Nyalunga Attorneys, we believe that every client deserves
               exceptional legal representation. Our firm was founded on the
               principles of integrity, dedication, and results-driven advocacy.
             </p>

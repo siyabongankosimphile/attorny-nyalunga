@@ -29,22 +29,16 @@ const services = [
       "Assistance with Road Accident Fund claims for injury, loss of income, medical expenses, and other accident-related damages.",
   },
   {
-    icon: Scale,
-    title: "Criminal Law",
-    description:
-      "Strategic criminal defense and legal guidance for bail applications, trials, appeals, and related criminal matters.",
-  },
-  {
     icon: FileText,
     title: "Debt collection",
     description:
       "Efficient debt recovery services for individuals and businesses, including demand processes and enforcement support.",
   },
   {
-    icon: Home,
-    title: "Family law",
+    icon: Scale,
+    title: "Tax Law",
     description:
-      "Advice and representation in divorce, maintenance, custody, domestic violence, and other family-related legal matters.",
+      "Guidance on tax compliance, dispute resolution, and financial planning for individuals and businesses.",
   },
   {
     icon: Building2,

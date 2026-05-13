@@ -25,7 +25,7 @@ export function Hero() {
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-8">
             <Award className="h-4 w-4 text-amber-400" />
             <span className="text-white/90 text-sm font-medium">
-              Award-Winning Legal Team
+              Trusted Legal Professionals
             </span>
           </div>
 
@@ -38,8 +38,8 @@ export function Hero() {
 
           {/* Subheadline */}
           <p className="mt-6 text-lg sm:text-xl text-white/80 max-w-2xl mx-auto leading-relaxed text-pretty">
-            With over 30 years of combined experience, our dedicated attorneys
-            fight relentlessly for your rights and deliver results that matter.
+            Professional legal representation focused on protecting your rights and
+            achieving the best possible outcome.
           </p>
 
           {/* CTA Buttons */}
@@ -68,13 +68,13 @@ export function Hero() {
           <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-3xl mx-auto">
             <div className="flex flex-col items-center gap-2">
               <Shield className="h-8 w-8 text-blue-200" />
-              <span className="text-white font-semibold text-2xl">500+</span>
+              <span className="text-white font-semibold text-2xl">90%</span>
               <span className="text-white/70 text-sm">Cases Won</span>
             </div>
             <div className="flex flex-col items-center gap-2">
               <Award className="h-8 w-8 text-blue-200" />
-              <span className="text-white font-semibold text-2xl">30+</span>
-              <span className="text-white/70 text-sm">Years Experience</span>
+              <span className="text-white font-semibold text-2xl">100+</span>
+              <span className="text-white/70 text-sm">Trusted Clients</span>
             </div>
             <div className="flex flex-col items-center gap-2">
               <Clock className="h-8 w-8 text-blue-200" />
