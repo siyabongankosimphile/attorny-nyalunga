@@ -11,30 +11,6 @@ const attorneys = [
     linkedin: "https://www.linkedin.com/in/hazel-nelisiwe-1a2a00206",
     email: "info@hnnyalungainc.co.za",
   },
-  {
-    name: "Sarah Chen",
-    title: "Senior Associate",
-    specialty: "Medical Negligence, Road Accident Fund",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=500&fit=crop&crop=face",
-    linkedin: "#",
-    email: "sarah@morrisonlaw.com",
-  },
-  {
-    name: "Michael Rodriguez",
-    title: "Partner",
-    specialty: "Debt collection, Contracts Law",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=500&fit=crop&crop=face",
-    linkedin: "#",
-    email: "michael@morrisonlaw.com",
-  },
-  {
-    name: "Emily Watson",
-    title: "Associate Attorney",
-    specialty: "Family law, Contracts Law",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=500&fit=crop&crop=face",
-    linkedin: "#",
-    email: "emily@morrisonlaw.com",
-  },
 ];
 
 export function Team() {
@@ -57,9 +33,9 @@ export function Team() {
         </div>
 
         {/* Team Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="flex justify-center">
           {attorneys.map((attorney) => (
-            <div key={attorney.name} className="group text-center">
+            <div key={attorney.name} className="group text-center max-w-sm">
               {/* Image */}
               <div className="relative overflow-hidden rounded-lg mb-6 aspect-4/5">
                 <img
