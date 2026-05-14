@@ -7,30 +7,30 @@ import { Button } from "@/components/ui/button";
 const testimonials = [
   {
     content:
-      "Nyalunga Attorney handled my business litigation case with exceptional professionalism. Their strategic approach and attention to detail resulted in a favorable settlement that exceeded my expectations.",
-    author: "David Thompson",
-    role: "CEO, Thompson Industries",
-    rating: 5,
-  },
-  {
-    content:
-      "During one of the most difficult times in my life, Sarah Chen provided compassionate guidance through my divorce proceedings. She fought for my children's best interests while keeping the process as smooth as possible.",
-    author: "Jennifer Martinez",
-    role: "Healthcare Professional",
-    rating: 5,
-  },
-  {
-    content:
-      "I was facing serious criminal charges and felt hopeless until I hired Michael Rodriguez. His expertise and dedication helped me navigate the legal system, and he achieved an outcome I didn't think was possible.",
-    author: "Robert Kim",
+      "Nyalunga Attorney helped me navigate through a complex debt review process. Their expertise in financial law and negotiation skills resulted in a significant reduction of my debt burden, giving me a fresh start.",
+    author: "Thabo Nkosi",
     role: "Small Business Owner",
     rating: 5,
   },
   {
     content:
-      "The team at Nyalunga Attorney made our commercial real estate transaction seamless. Their thorough due diligence and negotiation skills saved us from potential issues and got us the best terms.",
-    author: "Amanda Foster",
-    role: "Real Estate Developer",
+      "I was wrongfully arrested and facing serious charges. The team at Nyalunga Attorney fought tirelessly for my rights, gathering evidence and presenting a compelling case that led to my immediate release and charges being dropped.",
+    author: "Nomsa Zulu",
+    role: "Community Leader",
+    rating: 5,
+  },
+  {
+    content:
+      "Facing aggressive debt collection practices that were harassing and unlawful, Nyalunga Attorney stepped in to protect my rights. They negotiated fair settlements and ensured the collectors followed proper legal procedures.",
+    author: "Sipho Mthembu",
+    role: "Teacher",
+    rating: 5,
+  },
+  {
+    content:
+      "When I was unlawfully detained during a protest, Nyalunga Attorney provided immediate legal assistance. Their knowledge of constitutional law and quick action secured my release and held the authorities accountable.",
+    author: "Lerato Khumalo",
+    role: "Activist",
     rating: 5,
   },
 ];
