@@ -254,19 +254,19 @@ export function Contact() {
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
                     <info.icon className="h-6 w-6 text-primary" />
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <div className="font-semibold text-foreground mb-1">
                       {info.label}
                     </div>
                     {info.href ? (
                       <a
                         href={info.href}
-                        className="text-muted-foreground hover:text-primary transition-colors"
+                        className="text-muted-foreground hover:text-primary transition-colors break-all"
                       >
                         {info.value}
                       </a>
                     ) : (
-                      <div className="text-muted-foreground whitespace-pre-line text-sm">
+                      <div className="text-muted-foreground whitespace-pre-line text-sm break-words">
                         {info.value}
                       </div>
                     )}
