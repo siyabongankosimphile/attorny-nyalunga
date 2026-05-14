@@ -7,9 +7,22 @@ const attorneys = [
     name: "Hazel Nyalunga",
     title: "Director & Legal Practitioner",
     specialty: "Unlawful arrest and detention, Criminal Law",
-    image: "/image2.jpeg",
+    image: "/image3.jpeg",
     linkedin: "https://www.linkedin.com/in/hazel-nelisiwe-1a2a00206",
     email: "info@hnnyalungainc.co.za",
+  },
+  {
+   
+    image: "/image3.jpeg",
+    linkedin: "#",
+    email: "thabiso@hnnyalungainc.co.za",
+  },
+  {
+    
+    
+    image: "/image3.jpeg",
+    linkedin: "#",
+    email: "zanele@hnnyalungainc.co.za",
   },
 ];
 
@@ -33,9 +46,9 @@ export function Team() {
         </div>
 
         {/* Team Grid */}
-        <div className="flex justify-center">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {attorneys.map((attorney) => (
-            <div key={attorney.name} className="group text-center max-w-sm">
+            <div key={attorney.name} className="group text-center">
               {/* Image */}
               <div className="relative overflow-hidden rounded-lg mb-6 aspect-4/5">
                 <img
