@@ -51,7 +51,7 @@ export function About() {
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-foreground mt-3 leading-tight text-balance">
               Dedicated Legal Excellence
             </h2>
-            <p className="mt-6 text-muted-foreground leading-relaxed text-lg">
+            <p className="mt-6 text-muted-foreground leading-relaxed">
               At HN Nyalunga Attorneys, we believe that every client deserves
               exceptional legal representation. Our firm was founded on the
               principles of integrity, dedication, and results-driven advocacy.

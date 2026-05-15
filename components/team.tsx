@@ -11,19 +11,6 @@ const attorneys = [
     linkedin: "https://www.linkedin.com/in/hazel-nelisiwe-1a2a00206",
     email: "info@hnnyalungainc.co.za",
   },
-  {
-   
-    image: "/image3.jpeg",
-    linkedin: "#",
-    email: "thabiso@hnnyalungainc.co.za",
-  },
-  {
-    
-    
-    image: "/image3.jpeg",
-    linkedin: "#",
-    email: "zanele@hnnyalungainc.co.za",
-  },
 ];
 
 export function Team() {
@@ -46,15 +33,15 @@ export function Team() {
         </div>
 
         {/* Team Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid place-items-center">
           {attorneys.map((attorney) => (
-            <div key={attorney.name} className="group text-center">
+            <div key={attorney.email} className="group text-center w-full max-w-lg sm:max-w-xl">
               {/* Image */}
-              <div className="relative overflow-hidden rounded-lg mb-6 aspect-4/5">
+              <div className="relative overflow-hidden rounded-lg mb-6 aspect-[4/5]">
                 <img
                   src={attorney.image}
-                  alt={attorney.name}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  alt={attorney.name || attorney.email}
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                 />
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-linear-to-t from-primary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-6">

@@ -19,7 +19,7 @@ const footerLinks = {
 
 const socialLinks = [
   { icon: Facebook, href: "https://www.facebook.com/people/HN-Nyalunga-Attorneys/61572777221935/#", label: "Facebook" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/hazel-nelisiwe-1a2a00206/", label: "LinkedIn" },
   { icon: Instagram, href: "https://www.instagram.com/nyalunga_inc/", label: "Instagram" },
 ];
 
@@ -42,7 +42,7 @@ export function Footer() {
             </a>
             <p className="text-white/70 leading-relaxed mb-6">
               Trusted legal counsel serving clients with integrity, dedication,
-              and results-driven advocacy since 1994.
+              and results-driven advocacy.
             </p>
             {/* Social Links */}
             <div className="flex gap-3">
