@@ -73,7 +73,7 @@ export function Hero() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <Award className="h-8 w-8 text-blue-200" />
-              <span className="text-white font-semibold text-2xl">100+</span>
+              <span className="text-white font-semibold text-2xl">50+</span>
               <span className="text-white/70 text-sm">Trusted Clients</span>
             </div>
             <div className="flex flex-col items-center gap-2">
